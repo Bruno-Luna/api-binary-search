@@ -4,5 +4,7 @@ import lombok.Data;
 
 @Data
 public class NumberSearchResponseDTO {
-    int target, targetIndex, operations;
+    int target;
+    int targetIndex;
+    int operations;
 }
