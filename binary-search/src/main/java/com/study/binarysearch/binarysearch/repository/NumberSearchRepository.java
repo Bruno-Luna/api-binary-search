@@ -1,4 +1,4 @@
 package com.study.binarysearch.binarysearch.repository;
 
-public class ListRepository {
+public class NumberSearchRepository {
 }
