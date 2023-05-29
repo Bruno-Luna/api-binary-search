@@ -12,14 +12,5 @@ public class ApiCheckController {
     public ResponseEntity<String> healthCheck() {
         return ResponseEntity.ok().build();
     }
-    @GetMapping("/health")
-    public String healthCheck1() {
-        return "olá";
-    }
-
-    @GetMapping("/health-check")
-    ResponseEntity<String> healthCheck() {
-        return ResponseEntity.ok("NumberSearch API running on port 8080");
-    }
 
 }

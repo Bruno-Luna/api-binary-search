@@ -14,11 +14,6 @@ public class ListController {
 
     private final ListService listService;
 
-    @GetMapping("/health")
-    public String healthCheck1() {
-        return "olá";
-    }
-
     @PostMapping()
     public ListResponseDTO findIndexByBinary(@RequestBody ListRequestDTO requestList) {
         return  listService.searchByBinary(requestList);
